@@ -172,7 +172,8 @@ table a {
 }
 
 table a:hover {
-   text-decoration: underline;
+   text-decoration: none;
+   color : black;
 }
 
 
@@ -209,7 +210,8 @@ body > nav a {
 
 body > nav a:hover {
    color: rgb(137, 81, 0);
-   text-decoration: underline;
+   text-decoration: none;
+   font-weight: bold;
 }
 
 
@@ -259,11 +261,12 @@ footer {
 footer, footer span a {
    padding: 10px;
    color: rgba(51, 51, 51, 0.7);
+   text-decoration: none;
 }
 
 footer span a:hover {
    color: rgb(0, 167, 167);
-   text-decoration: underline;
+   text-decoration: none;
 }
 
 
